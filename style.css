@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: white;
+    overflow: hidden;
+}
+
+#depositCSV {
+
+}
+#CSV {
+
+}
+#submit {
+    border: 1px solid green;
+    background: cyan;
+    cursor: pointer;
+    user-select: none;
+    width: 75px;
+    height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+    margin: 10px;
+    display: none;
+}
+#submit:hover{ 
+    background: blue;
+}
